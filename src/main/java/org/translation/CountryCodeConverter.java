@@ -15,6 +15,10 @@ public class CountryCodeConverter {
 
     // TODO Task: pick appropriate instance variable(s) to store the data necessary for this class
 
+    private String code;
+    private String country;
+    private int numCountry;
+
     /**
      * Default constructor which will load the country codes from "country-codes.txt"
      * in the resources folder.
@@ -70,5 +74,9 @@ public class CountryCodeConverter {
     public int getNumCountries() {
         // TODO Task: update this code to use an instance variable to return the correct value
         return 0;
+    }
+
+    public static void main(String[] args) {
+
     }
 }
